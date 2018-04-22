@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Invie - The best guitars!</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/invie.css" />
+		<link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700" rel="stylesheet" />
+	</head>
+	
+	<body>
+
+		<section id="front" class="front background"><!-- portada -->	
+			<header id="header" class="header container">
+				<!-- Logo -->
+				<figure class="logo">
+					<img src="images/invie.png" alt="invie logo" width="186" height="60" />
+				</figure>
+				<!-- Menu -->
+				<nav class="menu">
+					<ul>
+						<li><a href="index.html" title=""> Home</a></li>
+						<li><a href="index.html#guitars" title=""> Guitars</a></li>
+						<li><a href="prices.html" title=""> Prices</a></li>
+
+					</ul>
+				</nav>
+			</header><!-- /header -->
+			<div class="container">
+				<!-- title -->
+				<h1 class="title"><span>Invie</span>sibles guitars</h1>
+				<!-- description -->
+				<h3 class="title-a">Be the rock star that you always wanted to be!</h3>
+				<!-- button -->
+				<a class="button" href="#guitars">See more...</a>
+			</div>
+		</section>
+
+		<section id="guitars" class="guitars container"> <!-- guitarras -->
+			<!-- title -->
+			<h2>Our guitars</h2>
+			<!--acoustic guitar-->
+			<article class="guitar a">
+				<img src="images/invie-acustica.png" alt="Invie Acoustic Guitar" width="350" class="right" />
+				<div class="guitar-text-container-a">
+					<h3 class="title-b">Acoustic Invie</h3>
+					<ol>
+						<li>Vintage style</li>
+						<li>Pure wood</li>
+						<li>Includes an invie-sible steel case!</li>
+					</ol>					
+				</div>
+
+			</article>
+			<!-- classic guitar -->
+			<article class="guitar b">
+				<img src="images/invie-classic.png" alt="Invie Classic Guitar" width="350" class="left" />
+				<div class="guitar-text-container-b">
+					<h3 class="title-b">Classic Invie</h3>
+					<ol>
+						<li>Vintage style</li>
+						<li>Soft</li>
+						<li>Start your way as a rockstar!</li>
+					</ol>
+				</div>
+				
+			</article>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="contact">
+				<!-- logo -->
+					<img src="images/invie-white.png" alt="invie logo" />
+				<!-- phone number -->
+					<a href="tel:+11223444555"><strong>Phone number: </strong> <span>+11 223 444 555</span></a>
+				<!-- email -->
+					<a href="mailto:contacto@invie.com"><strong>E-mail: </strong> <span>contacto@invie.com</span></a>
+				</div>
+
+				<form class="contactform">
+				<!-- formulario de contacto	 -->
+					<div class="col1">
+						<label for="name">
+							Name:
+							<input type="text" placeholder="Type your name here" id="name" name="name" />
+						</label>
+
+						<label for="email">
+							Email:
+							<input type="email" required id="email" name="email" />
+						</label>
+
+						<div class="gender">
+							<label for="radiomujer"><input checked type="radio" id="radiomujer" name="gender" value="female" />Female</label>
+							<label for="radiohombre"><input type="radio" id="radiohombre" name="gender" value="male" />Male</label>
+						</div>
+						
+						<div class="topics">
+							<label for="quotation"><input checked type="checkbox" id="qutation" name="topics" value="qutation" />Quotation</label>
+							<label for="claims"><input type="checkbox" id="claims" name="topics" value="claims" />Claims</label>
+							<label for="comments"><input type="checkbox" id="comments" name="topics" value="comments" />Comments</label>
+							<label for="others"><input type="checkbox" id="others" name="topics" value="others" />Others</label>
+						</div>
+					
+					</div>
+
+					<div class="col2">
+						
+						
+							<label for="textspace">
+								Comments:
+								<textarea id="textspace" name="textspace" cols="30" rows="7" placeholder="Type your message here"></textarea>
+							</label>
+							<input class="button" type="submit" name="sent" value="Submit" />
+						
+					</div>
+					
+				</form>
+			</div>
+			
+		</footer>
+	</body>
+</html>
